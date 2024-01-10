@@ -1,0 +1,107 @@
+/* Write your CSS here */
+
+.appContainer {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whiteContainer {
+  min-height: 70vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.imageHolder {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.heading {
+  color: #171f46;
+  font-size: 24px;
+}
+.titleHeading {
+  color: #b5b7c4;
+  font-size: 18px;
+  font-weight: bold;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.inputTitle {
+  height: 35px;
+  width: 40%;
+  border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+  .inputTitle {
+    width: 80%;
+  }
+}
+.addButton {
+  height: 25px;
+  width: 50px;
+  border: none;
+  outline: none;
+  background-color: #8b5cf6;
+  color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.line {
+  border: 2px solid #b5b7c4;
+  width: 95%;
+}
+.photo {
+  height: 250px;
+  width: 300px;
+}
+@media screen and (max-width: 767px) {
+  .photo {
+    display: none;
+  }
+}
+.belowLine {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.starredButton {
+  border: 1px solid #8b5cf6;
+  border-radius: 10px;
+  background-color: white;
+  color: #9897f0;
+  height: 25px;
+  width: 70px;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.appointmentContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .appointmentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+.purple {
+  background-color: #8b5cf6;
+  color: white;
+}
